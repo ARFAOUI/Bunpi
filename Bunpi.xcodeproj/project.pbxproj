@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A885F0C31CC17E690074B78C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0C21CC17E690074B78C /* AppDelegate.swift */; };
+		A885F0C51CC17E690074B78C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0C41CC17E690074B78C /* ViewController.swift */; };
+		A885F0CA1CC17E690074B78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A885F0C91CC17E690074B78C /* Assets.xcassets */; };
+		A885F0D81CC17E690074B78C /* BunpiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0D71CC17E690074B78C /* BunpiTests.swift */; };
+		A885F0E31CC17E690074B78C /* BunpiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0E21CC17E690074B78C /* BunpiUITests.swift */; };
+		A885F0F11CC18EBA0074B78C /* BunpiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0F01CC18EBA0074B78C /* BunpiCollectionView.swift */; };
+		A885F0F31CC1930E0074B78C /* MapViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0F21CC1930E0074B78C /* MapViewCell.swift */; };
+		A885F0F61CC251120074B78C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0F51CC251120074B78C /* PhotoCell.swift */; };
+		A885F0F81CC251320074B78C /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0F71CC251320074B78C /* AudioCell.swift */; };
+		A885F0FA1CC2530C0074B78C /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0F91CC2530C0074B78C /* BasicCell.swift */; };
+		A885F0FC1CC256060074B78C /* MapViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A885F0FB1CC256060074B78C /* MapViewCell.xib */; };
+		A885F0FE1CC25A7D0074B78C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F0FD1CC25A7D0074B78C /* Config.swift */; };
+		A885F1001CC25C8C0074B78C /* djkhaled.png in Resources */ = {isa = PBXBuildFile; fileRef = A885F0FF1CC25C8C0074B78C /* djkhaled.png */; };
+		A885F1021CC25C9D0074B78C /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A885F1011CC25C9D0074B78C /* PhotoCell.xib */; };
+		A885F1041CC263140074B78C /* AudioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A885F1031CC263140074B78C /* AudioCell.xib */; };
+		A885F1061CC263A40074B78C /* makesense.png in Resources */ = {isa = PBXBuildFile; fileRef = A885F1051CC263A40074B78C /* makesense.png */; };
+		A885F10A1CC266650074B78C /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F1091CC266650074B78C /* Datasource.swift */; };
+		A885F10C1CC26F910074B78C /* CellsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F10B1CC26F910074B78C /* CellsEnum.swift */; };
+		A885F10E1CC2C00C0074B78C /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F10D1CC2C00C0074B78C /* CellModel.swift */; };
+		A885F1101CC2D8FE0074B78C /* CollectionCustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F10F1CC2D8FD0074B78C /* CollectionCustomDelegate.swift */; };
+		A885F1151CC2DD920074B78C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885F1131CC2DD920074B78C /* DetailsViewController.swift */; };
+		A885F1181CC2E4B50074B78C /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A885F1171CC2E4B50074B78C /* DetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A885F0D41CC17E690074B78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A885F0B71CC17E690074B78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A885F0BE1CC17E690074B78C;
+			remoteInfo = Bunpi;
+		};
+		A885F0DF1CC17E690074B78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A885F0B71CC17E690074B78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A885F0BE1CC17E690074B78C;
+			remoteInfo = Bunpi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A885F0BF1CC17E690074B78C /* Bunpi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bunpi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A885F0C21CC17E690074B78C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A885F0C41CC17E690074B78C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A885F0C91CC17E690074B78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A885F0CE1CC17E690074B78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A885F0D31CC17E690074B78C /* BunpiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunpiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A885F0D71CC17E690074B78C /* BunpiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunpiTests.swift; sourceTree = "<group>"; };
+		A885F0D91CC17E690074B78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A885F0DE1CC17E690074B78C /* BunpiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunpiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A885F0E21CC17E690074B78C /* BunpiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunpiUITests.swift; sourceTree = "<group>"; };
+		A885F0E41CC17E690074B78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A885F0F01CC18EBA0074B78C /* BunpiCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BunpiCollectionView.swift; sourceTree = "<group>"; };
+		A885F0F21CC1930E0074B78C /* MapViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewCell.swift; sourceTree = "<group>"; };
+		A885F0F51CC251120074B78C /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A885F0F71CC251320074B78C /* AudioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
+		A885F0F91CC2530C0074B78C /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		A885F0FB1CC256060074B78C /* MapViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewCell.xib; sourceTree = "<group>"; };
+		A885F0FD1CC25A7D0074B78C /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A885F0FF1CC25C8C0074B78C /* djkhaled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = djkhaled.png; sourceTree = "<group>"; };
+		A885F1011CC25C9D0074B78C /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		A885F1031CC263140074B78C /* AudioCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioCell.xib; sourceTree = "<group>"; };
+		A885F1051CC263A40074B78C /* makesense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makesense.png; sourceTree = "<group>"; };
+		A885F1091CC266650074B78C /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		A885F10B1CC26F910074B78C /* CellsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellsEnum.swift; sourceTree = "<group>"; };
+		A885F10D1CC2C00C0074B78C /* CellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		A885F10F1CC2D8FD0074B78C /* CollectionCustomDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCustomDelegate.swift; sourceTree = "<group>"; };
+		A885F1131CC2DD920074B78C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A885F1171CC2E4B50074B78C /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A885F0BC1CC17E690074B78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0D01CC17E690074B78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0DB1CC17E690074B78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A885F0B61CC17E690074B78C = {
+			isa = PBXGroup;
+			children = (
+				A885F0C11CC17E690074B78C /* Bunpi */,
+				A885F0D61CC17E690074B78C /* BunpiTests */,
+				A885F0E11CC17E690074B78C /* BunpiUITests */,
+				A885F0C01CC17E690074B78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A885F0C01CC17E690074B78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0BF1CC17E690074B78C /* Bunpi.app */,
+				A885F0D31CC17E690074B78C /* BunpiTests.xctest */,
+				A885F0DE1CC17E690074B78C /* BunpiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A885F0C11CC17E690074B78C /* Bunpi */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0C21CC17E690074B78C /* AppDelegate.swift */,
+				A885F0C41CC17E690074B78C /* ViewController.swift */,
+				A885F1131CC2DD920074B78C /* DetailsViewController.swift */,
+				A885F0F41CC250FC0074B78C /* Cells */,
+				A885F1071CC265FD0074B78C /* Datasource */,
+				A885F1081CC266120074B78C /* CollectionView */,
+				A885F1111CC2DCAC0074B78C /* supporting files */,
+				A885F1171CC2E4B50074B78C /* DetailsViewController.xib */,
+			);
+			path = Bunpi;
+			sourceTree = "<group>";
+		};
+		A885F0D61CC17E690074B78C /* BunpiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0D71CC17E690074B78C /* BunpiTests.swift */,
+				A885F0D91CC17E690074B78C /* Info.plist */,
+			);
+			path = BunpiTests;
+			sourceTree = "<group>";
+		};
+		A885F0E11CC17E690074B78C /* BunpiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0E21CC17E690074B78C /* BunpiUITests.swift */,
+				A885F0E41CC17E690074B78C /* Info.plist */,
+			);
+			path = BunpiUITests;
+			sourceTree = "<group>";
+		};
+		A885F0F41CC250FC0074B78C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0F91CC2530C0074B78C /* BasicCell.swift */,
+				A885F0F21CC1930E0074B78C /* MapViewCell.swift */,
+				A885F0FB1CC256060074B78C /* MapViewCell.xib */,
+				A885F0F51CC251120074B78C /* PhotoCell.swift */,
+				A885F1011CC25C9D0074B78C /* PhotoCell.xib */,
+				A885F0F71CC251320074B78C /* AudioCell.swift */,
+				A885F1031CC263140074B78C /* AudioCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A885F1071CC265FD0074B78C /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				A885F1091CC266650074B78C /* Datasource.swift */,
+				A885F10D1CC2C00C0074B78C /* CellModel.swift */,
+			);
+			name = Datasource;
+			sourceTree = "<group>";
+		};
+		A885F1081CC266120074B78C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0F01CC18EBA0074B78C /* BunpiCollectionView.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		A885F1111CC2DCAC0074B78C /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0CE1CC17E690074B78C /* Info.plist */,
+				A885F1121CC2DCC30074B78C /* img */,
+				A885F0FD1CC25A7D0074B78C /* Config.swift */,
+				A885F10B1CC26F910074B78C /* CellsEnum.swift */,
+				A885F10F1CC2D8FD0074B78C /* CollectionCustomDelegate.swift */,
+			);
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
+		A885F1121CC2DCC30074B78C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A885F0C91CC17E690074B78C /* Assets.xcassets */,
+				A885F1051CC263A40074B78C /* makesense.png */,
+				A885F0FF1CC25C8C0074B78C /* djkhaled.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A885F0BE1CC17E690074B78C /* Bunpi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A885F0E71CC17E690074B78C /* Build configuration list for PBXNativeTarget "Bunpi" */;
+			buildPhases = (
+				A885F0BB1CC17E690074B78C /* Sources */,
+				A885F0BC1CC17E690074B78C /* Frameworks */,
+				A885F0BD1CC17E690074B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bunpi;
+			productName = Bunpi;
+			productReference = A885F0BF1CC17E690074B78C /* Bunpi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A885F0D21CC17E690074B78C /* BunpiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A885F0EA1CC17E690074B78C /* Build configuration list for PBXNativeTarget "BunpiTests" */;
+			buildPhases = (
+				A885F0CF1CC17E690074B78C /* Sources */,
+				A885F0D01CC17E690074B78C /* Frameworks */,
+				A885F0D11CC17E690074B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A885F0D51CC17E690074B78C /* PBXTargetDependency */,
+			);
+			name = BunpiTests;
+			productName = BunpiTests;
+			productReference = A885F0D31CC17E690074B78C /* BunpiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A885F0DD1CC17E690074B78C /* BunpiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A885F0ED1CC17E690074B78C /* Build configuration list for PBXNativeTarget "BunpiUITests" */;
+			buildPhases = (
+				A885F0DA1CC17E690074B78C /* Sources */,
+				A885F0DB1CC17E690074B78C /* Frameworks */,
+				A885F0DC1CC17E690074B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A885F0E01CC17E690074B78C /* PBXTargetDependency */,
+			);
+			name = BunpiUITests;
+			productName = BunpiUITests;
+			productReference = A885F0DE1CC17E690074B78C /* BunpiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A885F0B71CC17E690074B78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bechir Arfaoui";
+				TargetAttributes = {
+					A885F0BE1CC17E690074B78C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A885F0D21CC17E690074B78C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A885F0BE1CC17E690074B78C;
+					};
+					A885F0DD1CC17E690074B78C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A885F0BE1CC17E690074B78C;
+					};
+				};
+			};
+			buildConfigurationList = A885F0BA1CC17E690074B78C /* Build configuration list for PBXProject "Bunpi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A885F0B61CC17E690074B78C;
+			productRefGroup = A885F0C01CC17E690074B78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A885F0BE1CC17E690074B78C /* Bunpi */,
+				A885F0D21CC17E690074B78C /* BunpiTests */,
+				A885F0DD1CC17E690074B78C /* BunpiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A885F0BD1CC17E690074B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A885F1181CC2E4B50074B78C /* DetailsViewController.xib in Resources */,
+				A885F1061CC263A40074B78C /* makesense.png in Resources */,
+				A885F1021CC25C9D0074B78C /* PhotoCell.xib in Resources */,
+				A885F1001CC25C8C0074B78C /* djkhaled.png in Resources */,
+				A885F1041CC263140074B78C /* AudioCell.xib in Resources */,
+				A885F0CA1CC17E690074B78C /* Assets.xcassets in Resources */,
+				A885F0FC1CC256060074B78C /* MapViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0D11CC17E690074B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0DC1CC17E690074B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A885F0BB1CC17E690074B78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A885F10E1CC2C00C0074B78C /* CellModel.swift in Sources */,
+				A885F10C1CC26F910074B78C /* CellsEnum.swift in Sources */,
+				A885F0C51CC17E690074B78C /* ViewController.swift in Sources */,
+				A885F1101CC2D8FE0074B78C /* CollectionCustomDelegate.swift in Sources */,
+				A885F0F61CC251120074B78C /* PhotoCell.swift in Sources */,
+				A885F0F81CC251320074B78C /* AudioCell.swift in Sources */,
+				A885F10A1CC266650074B78C /* Datasource.swift in Sources */,
+				A885F0C31CC17E690074B78C /* AppDelegate.swift in Sources */,
+				A885F0F11CC18EBA0074B78C /* BunpiCollectionView.swift in Sources */,
+				A885F0FE1CC25A7D0074B78C /* Config.swift in Sources */,
+				A885F0FA1CC2530C0074B78C /* BasicCell.swift in Sources */,
+				A885F1151CC2DD920074B78C /* DetailsViewController.swift in Sources */,
+				A885F0F31CC1930E0074B78C /* MapViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0CF1CC17E690074B78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A885F0D81CC17E690074B78C /* BunpiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F0DA1CC17E690074B78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A885F0E31CC17E690074B78C /* BunpiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A885F0D51CC17E690074B78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A885F0BE1CC17E690074B78C /* Bunpi */;
+			targetProxy = A885F0D41CC17E690074B78C /* PBXContainerItemProxy */;
+		};
+		A885F0E01CC17E690074B78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A885F0BE1CC17E690074B78C /* Bunpi */;
+			targetProxy = A885F0DF1CC17E690074B78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A885F0E51CC17E690074B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A885F0E61CC17E690074B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A885F0E81CC17E690074B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bunpi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.Bunpi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A885F0E91CC17E690074B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bunpi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.Bunpi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A885F0EB1CC17E690074B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BunpiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.BunpiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunpi.app/Bunpi";
+			};
+			name = Debug;
+		};
+		A885F0EC1CC17E690074B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BunpiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.BunpiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunpi.app/Bunpi";
+			};
+			name = Release;
+		};
+		A885F0EE1CC17E690074B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BunpiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.BunpiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bunpi;
+			};
+			name = Debug;
+		};
+		A885F0EF1CC17E690074B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BunpiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.BunpiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bunpi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A885F0BA1CC17E690074B78C /* Build configuration list for PBXProject "Bunpi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A885F0E51CC17E690074B78C /* Debug */,
+				A885F0E61CC17E690074B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A885F0E71CC17E690074B78C /* Build configuration list for PBXNativeTarget "Bunpi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A885F0E81CC17E690074B78C /* Debug */,
+				A885F0E91CC17E690074B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A885F0EA1CC17E690074B78C /* Build configuration list for PBXNativeTarget "BunpiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A885F0EB1CC17E690074B78C /* Debug */,
+				A885F0EC1CC17E690074B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A885F0ED1CC17E690074B78C /* Build configuration list for PBXNativeTarget "BunpiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A885F0EE1CC17E690074B78C /* Debug */,
+				A885F0EF1CC17E690074B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A885F0B71CC17E690074B78C /* Project object */;
+}
